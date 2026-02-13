@@ -1,5 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Benvinguts al Calculador de Notes!");
+    
     }
+
+    public static void mostrarResutado(double media){
+        if(media<5){
+            System.out.println("has suspes");
+        }
+        else{
+            System.out.println("has aprovat");
+        }
+    };
 }
