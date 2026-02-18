@@ -5,7 +5,14 @@ public class Main {
         double media = a / b;
         return media;
     }
-
+    public static void mostrarResutado(double media){
+        if(media<5){
+            System.out.println("El alumnen a suspes");
+        }
+        else{
+            System.out.println("El alumne a aprovat");
+        }
+    };
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Benvinguts al Calculador de Notes!");
@@ -27,6 +34,7 @@ public class Main {
                
             }
             System.out.println("Media del alumno: "+media(sumaNotas, numeroNotas)); 
+            mostrarResutado(media(sumaNotas, numeroNotas));
         }
         sc.close();
     }
