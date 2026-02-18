@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Benvinguts al Calculador de Notes!");
 
-        System.out.print("Quants estudiants hi ha a la classe? ");
+        System.out.print("Quants estudiants hi ha classe?");
         String[] assignaturas = {"Digitalització","Computer Systems","Llenguatges de Marques","Programació","Bases de Dades","Entorns de Desenvolupament"};
         int numeroEstudiantes = sc.nextInt();
         int numeroNotas = 6;
